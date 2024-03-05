@@ -1,12 +1,7 @@
 #include "defs.h"
 
-/*
-    Dynamically allocates several rooms and populates the provided house.
-    Note: You may modify this as long as room names and connections are maintained.
-        out: house - the house to populate with rooms. Assumes house has been initialized.
-*/
+
 void populateRooms(HouseType* house) {
-    // First, create each room
 
     // createRoom assumes that we dynamically allocate a room, initializes the values, and returns a RoomType*
     // create functions are pretty typical, but it means errors are harder to return aside from NULL
